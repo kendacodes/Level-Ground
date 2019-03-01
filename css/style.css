@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  font-family: Georgia;
+
+}
+body{
+  font-size: 10px;
+}
+
+/* general styles */
+header {
+  height: 100px;
+  background: rgb(84, 98, 119);
+}
+.burger{
+  diplay: none;
+}
+.main {
+  height: 550px;
+  width: 100%;
+  background: rgb(84, 98, 119);
+}
+
+nav ul li {
+  margin-left: 5%;
+  float: left;
+  font-size: small;
+  color: white;
+}
+
+nav ul li, h1 img, button {
+  margin-top: 20px;
+  color: white;
+}
+
+img {
+  width: 5%;
+  height: 50px;
+  margin-left: 30%;
+  float: left;
+}
+
+button {
+  width: 5%;
+  height: 21px;
+  margin-left: 35%;
+  border-radius: 13%;
+  background: white;
+  color: rgb(84, 98, 119);
+  float: left;
+}
+
+.burger {
+  display: none;
+}
+
+/* main style */
+section>h1, p, a {
+  text-align: center;
+  color: white;
+}
+
+.far {
+  font-size: medium;
+}
+
+h1 {
+  font-size: 5.5em;
+  padding: 80px;
+}
+
+section>h2 {
+  font-size: 61px;
+  padding: 91px;
+  margin-right: -1%;
+}
+
+section>p {
+  font-size: large;
+  text-align: center;
+  width: 50%;
+  margin-left: 24%;
+}
+
+p i {
+  margin-top: 10px;
+}
+
+section+section {
+  width: 35%;
+  margin: 47px 0 0 30%;
+}
+
+.white h3 {
+  font-size: 2.5em;
+  text-align: center;
+  margin: 43px;
+}
+
+h3+p {
+  color: black;
+  text-align: center;
+}
+
+.white {
+  height: 300px;
+}
+
+.white p {
+  width: 100%;
+  margin-left: -12px;
+}
+
+.butTon {
+  width: 14%;
+  height: 17px;
+  border: 1px solid slategrey;
+}
+
+.blueBox {
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  background-color: rgb(211, 215, 219);
+  float: left;
+  clear: both;
+}
+
+.blueBox section {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+.blueBox>section>img {
+  width: 60%;
+  height: 200px;
+  margin: 60px 0 0 134px;
+}
+
+.blueBox h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 21px;
+  clear: both;
+  margin: 21px;
+  padding-top: 31px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  background: rgb(18, 23, 32);
+  color: white;
+  clear: both;
+}
+
+footer img {
+  width: 1%;
+  height: 26px;
+  margin-left: 48%;
+}
+
+footer section:first-of-type {
+  width: 4%;
+  height: 200px;
+  margin: 0;
+  font-size: .5em;
+  float: left;
+  display: inline-block;
+}
+
+footer section:last-of-type {
+  width: 9%;
+  height: 200px;
+  padding: 18px;
+  margin-left: 89%;
+}
+
+.down{
+  float: left;
+  margin-top: 171px;
+}
+
+/* responsive */
+@media only screen and (max-width:768px) {
+  section {
+    float:none;
+  }
+
+  nav ul li, button {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    color: skyblue;
+    font-size: large;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
+  img {
+    width: 15%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 2.5em;
+    padding: 75px;
+ }
+
+  section+section {
+    width: 81%;
+    margin: 44px 0 0 14%;
+}
+
+.blueBox section {
+    width: 100%;
+    margin: -27px;
+  }
+  .blueBox img{
+    display:none;
+  }
+  footer{
+    display:none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  section,{
+    width: 100%
+  }
+   button {
+      display: none;
+    }
+    footer{
+      display:none;
+    }
+    .blueBox>section>img {
+    width: 60%;
+    height: 200px;
+    margin: 60px 0 0 112px
+}
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+  section {
+    background: aqua;
+  }
+}
