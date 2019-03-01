@@ -4,7 +4,7 @@ A fun recreation template of an already existing account.
 
 Link to project: coming soon....
 
-[alt tag] (media/levelGroundScreen.mov)
+<a href="https://imgflip.com/gif/2uzz1i"><img src="https://i.imgflip.com/2uzz1i.gif" title="made at imgflip.com"/></a>
 
 How It's Made:
 Tech used: HTML, CSS, Media Queries
